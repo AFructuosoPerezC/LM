@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right bottom;
+}
+
+/* SECTION */
+section{
+    float: left;
+    height: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5%;
+    opacity: 0.5;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+}
+
+section h1{
+    width: 75%;
+}
+
+section > p{
+    margin-right: 15%;
+}
+
+div > p{
+    width: 50%;
+}
+
+/* CHAT */
+div[name="chat"]{
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 10rem;
+}
+
+div[name="chat"] header{
+    background-color: black;
+    padding-top: 1rem;
+}
+
+div[name="chat"] main{
+    padding: 1rem;
+}
+
+article[name="info"]{
+    color: gray;
+    width: 58%;
+}
+
+article[name="info"]:first-child{
+    color: black;
+}
+
+article[name="hello"]{
+    background-color: lightskyblue;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+div[name="chat"] img{
+    width: 20%;
+}
+
+img[name="profile"]{
+    border-radius: 50%;
+}
+
+textarea[name="cons"]{
+    border: none;
+    width: 100%;
+}
+
+div[name="b_area"]{
+    padding: 0.5rem;
+}
+
+button{
+    background-color: darkgray;
+}
+
+/* CLASS */
+.bold{
+    font-weight: bold;
+}
+
+.r-line{
+    border-right: 1px solid black;
+    width: 40%;
+}
+
+.underline{
+    border: 0.5rem solid springgreen;
+    width: 30%;
+}
+
+/* COMBO */
+section, div[name="chat"] main, div[name="chat"] footer{
+    background-color: white;
+}
+
+section, textarea[name="cons"], .r-line{
+    margin-top: 1rem;
+}
+
+i, article[name="info"], .r-line{
+    display: inline-block;
+}
+
+i, .r-line{
+    vertical-align: top;
+}
+
+div > p, article[name="info"] p{
+    margin: 0px;
+}
+
+section, div[name="chat"]{
+    width: 42.5%;
+}
+
+div[name="chat"] header, button{
+    color: white;
+    height: 3rem;
+}
+
+textarea[name="cons"], div[name="b_area"]{
+    background-color: lightgray;
+}
+
+div[name="b_area"], div[name="chat"] footer{
+    text-align: right;
+}
