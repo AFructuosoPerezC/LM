@@ -1,0 +1,31 @@
+table{
+    width: 29%;
+    border: 1px solid black;
+}
+
+thead{
+    background-color: gray;
+    color: blue;
+
+    font-size: 2em;
+    letter-spacing: 3px;
+
+    text-align: center;
+}
+
+.dates{
+    font-weight: bold;    
+    vertical-align: top;
+}
+
+.personal{
+    font-style: italic;
+}
+
+.title{
+    color: brown;
+
+    font-size: 1.25em;
+
+    padding-top: 10%;
+}
