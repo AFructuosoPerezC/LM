@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Exercise 4</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+        }
+
+        thead {
+            background-color: chartreuse;
+        }
+
+        tfoot {
+            background-color: blue;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        input{
+            width: 130px;
+        }
+
+        img {
+            height: 250px;
+        }
+
+        tr td[colspan="3"] {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <table>
+            <thead>
+                <td colspan="3">
+                    <h1>CABECERA: LIBRERIA IES ALIXAR</h1>
+                </td>
+            </thead>
+
+            <tr>
+                <td colspan="2">Castilleja de la Cuesta (Sevilla)</td>
+
+                <td>
+                    <ul>
+                        <li>Libros</li>
+                        <li>Revistas</li>
+                        <li>Prensa</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="images/libro1.jpeg" alt="Libro1">
+                </td>
+
+                <td>
+                    <img src="images/libro2.jpg" alt="Libro2">
+                </td>
+
+                <td>
+                    <img src="images/libro3.jpeg" alt="Libro3">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="quant1">Cantidad</label>
+                    <input type="number" name="quant1">
+                </td>
+
+                <td>
+
+                    <label for="quant2">Cantidad</label>
+                    <input type="number" name="quant2">
+                </td>
+
+                <td>
+
+                    <label for="quant3">Cantidad</label>
+                    <input type="number" name="quant3">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <button type="submit">Enviar Consulta</button>
+                </td>
+            </tr>
+
+            <tfoot>
+                <td colspan="3">
+                    <h2>PIE: TUS MEJORES OFERTAS</h2>
+                </td>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>
