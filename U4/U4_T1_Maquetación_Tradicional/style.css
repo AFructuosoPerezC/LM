@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;    
+}
+
+/* HEADER */
+header h1{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+header p{
+    text-align: right;
+}
+
+/* NAV */
+nav.main ul{
+    padding-left: 0px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+nav.main ul li{
+    display: inline;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+nav.main ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+/* NEWS */
+div.news{
+    width: 19rem;
+}
+
+div.news h4{
+    margin-bottom: 0.5rem;
+}
+
+div.news nav ul{
+    padding: 0px;
+}
+
+div.news nav ul li{
+    padding-bottom: 0.5rem;
+    padding-left: 0.25rem;
+    padding-top: 0.5rem;
+}
+
+div.news nav ul li:last-child{
+    height: 9rem;
+}
+
+/* IMAGE */
+div.image div{
+    padding: 0.25rem;
+}
+
+img{
+    width: 100%;
+}
+
+/* PRIVATE */
+
+
+/* FOOTER */
+footer{
+    clear: both;
+    margin-top: 1rem;
+}
+
+/* LI */
+li{
+    list-style-image: none;
+}
+
+/* CLASS */
+.bg-gray, .image{
+    background-color: gray;
+}
+
+.bl-wh{
+    background-color: black;
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.margin-zero{
+    margin: 0px;
+}
+
+.image, .news{
+    float: left;
+}
+
+.private{
+    float: right;
+    width: 20rem;
+}
+
+.image{
+    margin-left: 13rem;
+    width: 15%;
+}
+
+.news, nav.main ul{
+    margin-bottom: 1rem;
+}
