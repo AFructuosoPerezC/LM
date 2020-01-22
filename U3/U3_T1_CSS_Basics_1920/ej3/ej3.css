@@ -1,0 +1,20 @@
+a:visited,
+em,
+h1,
+h2,
+input,
+ul li ul li,
+tbody tr td:last-child,
+strong{
+    color: red;
+}
+
+label,
+legend,
+tbody tr td:first-child{
+    color: blue;
+}
+
+table{
+    border-color: black;
+}
