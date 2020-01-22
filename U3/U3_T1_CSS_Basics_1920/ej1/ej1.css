@@ -1,0 +1,17 @@
+td {
+    border-bottom: 1px solid black;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: bisque;
+}
+
+tbody tr:hover{
+    background-color: cyan;
+    color: red;
+}
