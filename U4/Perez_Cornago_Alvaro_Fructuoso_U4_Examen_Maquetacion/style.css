@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+/* HEADER */
+header{
+    height: 7rem;
+}
+
+header div{
+    float: left;
+    width: 25%;
+}
+
+img[src="logotipo.png"]{
+    width: 100%;
+}
+
+aside{
+    float: right;
+    text-align: right;
+    width: 25%;
+}
+
+aside p input{
+    height: 2rem;
+    width: 90%;
+}
+
+img[src="lupa3.png"], img[src="china.png"], img[src="iran.png"]{
+    width: 10%;
+}
+
+/* NAV */
+nav{
+    background-color:magenta;
+    color: white;
+    height: 3rem;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+li:hover{
+    background-color: darkmagenta;
+}
+
+/* MAIN */
+main{
+    margin-top: 1rem;
+}
+
+/* TWEETS */
+main > div:first-child{
+    float: right;
+    width: 30%;
+}
+
+h3{
+    margin: 0px;
+}
+
+main > div:first-child p{
+    margin: 0px;
+}
+
+/* BANNER */
+main > div:last-child{
+    float: left;
+    width: 70%;
+}
+
+main > div:nth-child(2) > div:first-child{
+    color: magenta;
+}
+
+main > div:nth-child(2) > div:first-child > div:nth-child(2){
+    bottom: 0%;
+    left: 35%;
+}
+
+main > div:nth-child(2) > div:first-child > div:nth-child(3){
+    right: 30%;
+}
+
+main > div:nth-child(2) > div:first-child > div:nth-child(4){
+    left: 0%;
+}
+
+main > div:nth-child(2) > div:first-child > div:nth-child(2),
+main > div:nth-child(2) > div:first-child > div:nth-child(3),
+main > div:nth-child(2) > div:first-child > div:nth-child(4)
+{
+    position: absolute;
+}
+
+main > div:nth-child(2) > div:first-child > div:nth-child(3),
+main > div:nth-child(2) > div:first-child > div:nth-child(4)
+{
+    top: 75%;
+}
+
+main > div:nth-child(2) > div:nth-child(2){
+    margin-top: 2rem;
+}
+
+main > div:nth-child(2) > div:nth-child(2) > div{
+    width: 20%;
+}
+
+img{
+    width: 100%;
+}
+
+/* FOOTER */
+footer{
+    background-color: magenta;
+    clear: both;
+    height: 3rem;
+    text-align: center;
+}
+
+footer p{
+    margin: 0px;
+    padding-top: 1rem;
+}
+
+/* CLASS */
+.bold{
+    font-size: larger;
+    font-weight: bold;
+}
