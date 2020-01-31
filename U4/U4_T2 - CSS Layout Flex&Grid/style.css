@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right bottom;
+}
+
+div.container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas:
+        "info1 chat"
+        "info2 chat";
+}
+
+/* SECTION */
+section{
+    height: 20rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+}
+
+section[name="info1"]{
+    grid-area: info1;
+}
+
+section[name="info2"]{
+    grid-area: info2;
+}
+
+section div:first-child{
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+i[name="interest"]{
+    font-size: 2rem;
+}
+
+section h1{
+    margin-top: 0px;
+    width: 75%;
+}
+
+section > p{
+    margin-right: 15%;
+}
+
+div > p{
+    width: 50%;
+}
+
+/* CHAT */
+div[name="chat"]{
+    align-self: flex-end;
+    grid-area: chat;
+    margin-right: 0.5rem;
+}
+
+div[name="chat"] header{
+    background-color: black;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+
+div[name="chat"] main{
+    padding: 1rem;
+}
+
+article[name="info"]{
+    color: gray;
+    width: 58%;
+}
+
+article[name="info"]:first-child{
+    color: black;
+}
+
+article[name="hello"]{
+    background-color: lightskyblue;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+div[name="chat"] img{
+    width: 20%;
+}
+
+img[name="profile"]{
+    border-radius: 50%;
+}
+
+textarea[name="cons"]{
+    border: none;
+    width: 100%;
+}
+
+div[name="b_area"]{
+    padding: 0.5rem;
+}
+
+button{
+    background-color: dimgray;
+}
+
+/* CLASS */
+.bold{
+    font-weight: bold;
+}
+
+.r-line{
+    border-right: 1px solid black;
+    width: 40%;
+}
+
+.underline{
+    border: 0.5rem solid springgreen;
+    width: 30%;
+}
+
+/* COMBO */
+section,
+div[name="chat"] main,
+div[name="chat"] footer{
+    background-color: white;
+}
+
+section,
+textarea[name="cons"]{
+    margin-top: 1rem;
+}
+
+article[name="info"],
+.r-line{
+    display: inline-block;
+}
+
+i,
+.r-line{
+    vertical-align: top;
+}
+
+div > p,
+article[name="info"] p{
+    margin: 0px;
+}
+
+section,
+div[name="chat"]{
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+div[name="chat"] header,
+button{
+    color: white;
+    height: 3rem;
+}
+
+textarea[name="cons"],
+div[name="b_area"]{
+    background-color: lightgray;
+}
+
+section div:first-child,
+div[name="b_area"],
+div[name="chat"] footer{
+    text-align: right;
+}
